@@ -1,10 +1,10 @@
 # Front-end dev test
 
-We would like you to build the charity donation component from the image ([charity-donation-component.png](https://raw.githubusercontent.com/coopdigital/frontend-dev-test/master/charity-donation-component.png)) contained in this package. There is no right or wrong way to go about it. We want to see your approach to HTML, CSS, and JavaScript. The design is a bit static, so feel free to make it come to life a little. Have fun with it!
+We would like you to build the charity donation component from the image ([charity-donation-component.png](charity-donation-component.png?raw=true)) contained in this package. There is no right or wrong way to go about it. We want to see your approach to HTML, CSS, and JavaScript. The design is a bit static, so feel free to make it come to life a little. Have fun with it!
 
-We have created [a small API](https://github.com/coopdigital/coop-hiring-test-mock-api) which returns some mock data for the raised and target amounts. If you can, make use of it to display dynamic data. The API endpoint itself is at <https://coop-mock-test-api.herokuapp.com>.
+We have also created [a small API](https://github.com/coopdigital/coop-hiring-test-mock-api) which returns some mock data for the raised and target amounts. If you can, make use of it to display dynamic data. The API endpoint itself is at <https://coop-mock-test-api.herokuapp.com>.
 
-<img src="https://raw.githubusercontent.com/coopdigital/frontend-dev-test/master/charity-donation-component.png" alt="charity donation component" width="611">
+<img src="charity-donation-component.png" alt="Charity donation component" width="611">
 
 ## Deliverable
 
