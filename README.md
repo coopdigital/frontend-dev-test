@@ -12,12 +12,9 @@ We would like to see the component you built in action, so sending us the build 
 
 Even better: create a repository to work on your component, and give us access to it!
 
-## These might help
+## This might help
 
-We have built some tools that help our developers build Co-op branded content quickly, and you are free to use them as much or as little as you want:
-
-- The [**Co-op Front-end Toolkit**](https://github.com/coopdigital/coop-frontend-toolkit) contains a set of base styles and assets that are used across Co-op Digital. You should make use of those in building your component.
-- The [**Co-op Prototyping Kit**](https://github.com/coopdigital/coop-prototyping-kit) is a small framework that makes it simple to build and deploy small branded prototypes. It uses the Co-op Front-end Toolkit above, and may well prove a good way of kickstarting your work on the component.
+The [**Co-op Front-end Toolkit**](https://github.com/coopdigital/coop-frontend-toolkit) contains a set of base styles and assets that are used across Co-op Digital. You should make use of those in building your component.
 
 
 ### Good luck, and have fun coding!
