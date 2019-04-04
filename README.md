@@ -14,7 +14,7 @@ Even better: create a repository to work on your component, and give us access t
 
 ## This might help
 
-The [**Co-op Front-end Toolkit**](https://github.com/coopdigital/coop-frontend-toolkit) contains a set of base styles and assets that are used across Co-op Digital. You should make use of those in building your component.
+The [**CSS Foundations**](https://github.com/coopdigital/css-foundations) contains a set of base styles that are used across Co-op Digital. You should make use of those in building your component.
 
 
 ### Good luck, and have fun coding!
