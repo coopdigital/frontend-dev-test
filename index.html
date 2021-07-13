@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Co-op Front-end Technical Test</title>
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <div class="coop-l-container">
+          <div class="app-logo">
+            <img src="logo.svg" alt="Co-op logo" />
+            <span>Co-op Front-end Technical Test</span>
+          </div>
+        </div>
+      </header>
+      <div class="coop-l-container">
+        <div class="coop-l-grid">
+          <div
+            class="
+              coop-l-grid__item
+              coop-l-grid__item--small-12
+              coop-l-grid__item--medium-7
+              coop-l-grid__item--large-6
+            "
+          >
+            <!-- Donation card component -->
+            <div class="coop-c-donation-card">
+              <div class="coop-c-donation-card__header">
+                <h3>
+                  Help refugees rebuild their lives and communities in
+                  Manchester
+                </h3>
+                <p>Manchester Refugee Support Network (MRSN)</p>
+              </div>
+              <form action="#">
+                <div class="coop-form__row">
+                  <p class="coop-form__label">Donate to this project</p>
+                  <input
+                    id="donation-value"
+                    class="coop-form__field coop-form__input"
+                    type="text"
+                    name="donation-value"
+                  />
+                </div>
+                <button type="submit" class="coop-btn coop-btn--primary">
+                  Donate
+                </button>
+              </form>
+            </div>
+            <!-- Donation card component -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

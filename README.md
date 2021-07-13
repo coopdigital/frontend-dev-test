@@ -1,20 +1,35 @@
-# Front-end dev test
+# Co-op Front-end Technical Test
 
-We would like you to build the charity donation component from the image ([charity-donation-component.png](charity-donation-component.png?raw=true)) contained in this package. There is no right or wrong way to go about it. We want to see your approach to HTML, CSS, and JavaScript. The design is a bit static, so feel free to make it come to life a little. Have fun with it!
+This test is designed to help us understand how you would tackle common front-end problems in an accessible and tested way.
 
-We have also created [a small API](https://github.com/coopdigital/coop-hiring-test-mock-api) which returns some mock data for the raised and target amounts. If you can, make use of it to display dynamic data. The API endpoint itself is at <https://coop-mock-test-api.herokuapp.com>.
+We've been asked to update our donation component. We have a new design and functionality
 
-<img src="charity-donation-component.png" alt="Charity donation component" width="611">
+We would like you to update our charity donation component. The new design is within this project for you to use as a reference.
 
-## Deliverable
+We will focus on two goals for this test.
 
-We would like to see the component you built in action, so sending us the build folder would be great. However, we are equally interested in your approach to building the component, so please also include all your source files.
+## Goals
 
-Even better: create a repository to work on your component, and give us access to it!
+### Add the new elements and update the visual design.
 
-## This might help
+We are looking for how you would approach writing the HTML of the component. The focus here is on the semantics and accessibility of the markup for the new and existing code.
 
-The [**CSS Foundations**](https://www.npmjs.com/package/@coopdigital/css-foundations) contains a set of base styles that are used across Co-op Digital. You should make use of those in building your component.
+We also want to see how you would style the component so it matches the design and works across multiple browsers and devices. It is also useful for us to see how you would style it into a wider system of components and patterns.
 
+### Make the component dynamic by consuming the donation data from the API and passing it to the component.
 
-### Good luck, and have fun coding!
+How would you approach the JavaScript that will fetch the data, tranform it and update the DOM. We're looking for clean and tested JavaScript. Tests are written using Jest.
+
+## Mock Donation API
+
+We have created a small API which returns some mock data for the raised and target amounts. If you can, make use of it to display dynamic data. The API endpoint itself is at https://coop-mock-test-api.herokuapp.com.
+
+An example of the return value
+
+```
+{
+  "status": "OK",
+  "target": 6000,
+  "raised": 3249.03
+}
+```

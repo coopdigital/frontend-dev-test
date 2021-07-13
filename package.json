@@ -1,0 +1,15 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "vite": "^2.4.0"
+  },
+  "dependencies": {
+    "@coopdigital/css-foundations": "^7.1.3"
+  }
+}
